@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   color: white;
   user-select: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
   font-family: "Poppins", sans-serif;
 }
 .btn {
@@ -131,4 +136,94 @@ nav ul li a span {
 
 nav ul li a span.rotate {
   transform: translateY(-50%) rotate(-180deg);
+}
+
+.portada {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/misc/Mgla-SoniaSS-14-768x506-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  border-top: 0.1rem solid rgb(68, 64, 64);
+}
+
+.container__info {
+  display: block;
+  height: 100%;
+  /* width: 100%; */
+  padding-top: 0.3rem;
+}
+
+.container__info h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.container__info h1 {
+  text-align: center;
+}
+
+.container__info__text {
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-left: 0.4rem;
+  font-size: 17px;
+}
+
+.imgContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: #1b1b1b;
+}
+
+.imgContainer__DoomMetal {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  margin-top: 1.7rem;
+  /* border: 1px solid rgb(149, 16, 16); */
+  transition: all 0.2s ease;
+}
+.imgContainer__DoomMetal h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+.imgContainer__DoomMetal:hover {
+  transform: scale(1.02);
+  box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
+  -webkit-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
+  -moz-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
+}
+.imgContainer__DoomMetal img {
+  margin-top: 0.8rem;
+  width: 100%;
+}
+.imgContainer__DoomMetal__text {
+  font-size: 15px;
+  margin-left: 0.3rem;
+  margin-top: 0.7rem;
+  margin-right: 0.3rem;
 }
