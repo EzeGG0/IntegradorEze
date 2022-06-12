@@ -398,7 +398,7 @@ textarea:hover {
 .footer span {
   padding: 0.4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .imgContainer {
     display: flex;
     flex-flow: row wrap;
@@ -424,6 +424,37 @@ textarea:hover {
   }
   .imgContainer__DeathMetal {
     width: 48%;
+    margin-left: 1.2rem;
+  }
+  /* Section imagenes terminada */
+}
+
+@media (min-width: 650px) {
+  .imgContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background: #1b1b1b;
+  }
+  .imgContainer__DoomMetal {
+    display: flex;
+    width: 46%;
+    margin-top: 2.5rem;
+    margin-left: 1.2rem;
+  }
+  .imgContainer__ThrashMetal {
+    display: flex;
+    width: 46%;
+    margin-left: 1.2rem;
+  }
+
+  .imgContainer__BlackMetal {
+    display: flex;
+    width: 46%;
+    margin-left: 1.2rem;
+  }
+  .imgContainer__DeathMetal {
+    width: 46%;
     margin-left: 1.2rem;
   }
   /* Section imagenes terminada */
