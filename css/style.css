@@ -8,6 +8,7 @@
   user-select: none;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -291,8 +292,112 @@ h2 {
   -webkit-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
   -moz-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
 }
+.link {
+  color: white;
+}
+.link:visited {
+  color: white;
+}
+.link:hover {
+  color: red;
+}
 /* Section terminada */
 
+.contacto {
+  display: flex;
+  flex-flow: column nowrap;
+  background: #1e1e1e;
+  align-items: center;
+  justify-content: center;
+  text-justify: center;
+  padding-top: 2rem;
+}
+.contacto h2 {
+  font-size: 50px;
+  font-family: "JetBrains Mono", "Bebas Neue", sans-serif;
+}
+.contacto__info {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.labelEmail {
+  display: block;
+}
+.labelMsg {
+  display: block;
+}
+.contacto__info__submit {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.contacto__info__submit input {
+  margin: 0.5rem;
+}
+input {
+  width: 90%;
+  background-color: #151414;
+  color: blueviolet;
+}
+input:hover {
+  border: 1px solid rgb(96, 10, 10);
+}
+
+textarea {
+  width: 90%;
+  height: 4rem;
+  margin: 0.5rem;
+  background-color: #151414;
+  color: blueviolet;
+}
+textarea:hover {
+  border: 1px solid rgb(96, 10, 10);
+}
+.submitEnd {
+  width: 25%;
+  background-color: #1b1b1b;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+}
+.submitEnd:hover {
+  transform: scale(1.07);
+  color: rgb(143, 10, 10);
+  background-color: #151414;
+  border-radius: 0.2rem;
+}
+
+.contacto__info__location {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.iconos {
+  color: white;
+  margin: 0.5rem;
+  padding-top: 0.3rem;
+}
+.contacto__text {
+  display: inline-block;
+  padding-left: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  background: #1b1b1b;
+  justify-content: center;
+  text-align: center;
+  padding-top: 0.7rem;
+}
+.footer span {
+  padding: 0.4rem;
+}
 @media (min-width: 768px) {
   .imgContainer {
     display: flex;
