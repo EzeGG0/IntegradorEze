@@ -137,7 +137,7 @@ nav ul li a span {
 nav ul li a span.rotate {
   transform: translateY(-50%) rotate(-180deg);
 }
-
+/* NavBar terminada */
 .portada {
   display: flex;
   background-image: url(/misc/Mgla-SoniaSS-14-768x506-1.jpg);
@@ -160,11 +160,11 @@ h1 {
   background-color: #1e1e1e;
   border-top: 0.1rem solid rgb(68, 64, 64);
 }
+/* Portada terminada */
 
 .container__info {
   display: block;
   height: 100%;
-  /* width: 100%; */
   padding-top: 0.3rem;
 }
 
@@ -289,3 +289,4 @@ h2 {
   -webkit-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
   -moz-box-shadow: -2px 4px 30px 4px rgba(209, 23, 23, 0.39);
 }
+/* Section terminada */
